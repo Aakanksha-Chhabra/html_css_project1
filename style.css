@@ -1,0 +1,154 @@
+@font-face {
+    font-family: 'advent';
+    src: url('./assets/adventpro-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'advent_bold';
+    src: url('adventpro-semibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.header-item {
+text-align: center;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 50px;
+    font-family: 'advent';
+    letter-spacing: 3px;  
+}
+
+.container .navbar-container .header-item-home{
+    padding-left: 100px;
+    font-size: 30px; 
+}
+
+.container .navbar-container .header-item-all{
+    padding-left: 40px;
+    font-size: 30px;  
+}
+
+.container .navbar-container .search-icon{
+    padding-left: 120px;
+    font-size: 30px;
+    
+}
+
+.container .navbar-container .nav-button{
+    border: 1px solid black;
+    background-color: white;
+    border-radius: 10px;
+    border-width: 2px;
+    width: 140px;
+    height: 35px;
+    font-size: 20px;
+    font-family: 'advent';
+    position: absolute;
+    margin-top: 24px;
+    margin-left: 10px;
+    letter-spacing: 3px;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+
+img[alt="globe-pattern"]{
+    position: absolute;
+    margin-top: -100px;
+    width: 50px;
+    margin-left: 100px;
+}
+    
+img[alt="start-pattern"]{
+    position: absolute;
+    margin-top: -50px;
+    margin-left: 500px;
+    width: 50px;
+}
+img[alt="start-pattern-left"]{
+    position: absolute;
+    margin-top: -50px;
+    margin-left: 50px;
+    width: 40px;
+}
+    
+img[alt="person-hero-iamge"]{
+padding-top: 100px;
+width: 400px;
+position: absolute;
+}
+
+img[alt="square-pattern"]{
+    position: absolute;
+    padding-left: 120px;
+    padding-top: 300px;
+    width: 350px;
+}
+
+.container .hero-container .hero-container-right{
+    padding-left: 550px;
+    padding-top: 150px;
+}
+
+.container .hero-container .hero-container-right .hero-heading{
+    font-size: 60px;
+    text-align: left;
+    font-family: 'advent';
+    letter-spacing: 9px;
+}
+
+.container .hero-container .hero-container-right .hero-description{
+    padding-right: 250px;
+    padding-left: 20px;
+    text-align: center;
+}
+
+.container .hero-container .hero-container-right .contact-heading{
+padding-left: 290px;
+}
+
+img[alt="facebook-icon"]{
+    padding-left: 245px;
+    width: 37px;
+    padding-right: 5px; 
+}
+
+img[alt="messenger-icon"], [alt="instagram-icon"],[alt="whatsapp-icon"]{
+    width: 37px;
+    padding-right: 5px; 
+}
+
+.container .hero-container .hero-container-right .button-pos{
+    padding-top: 110px;
+    padding-left: 170px;
+}
+
+.button-email{
+    background-color: white;
+    border-radius: 7px;
+    border-width: 2px;
+    font-size: large;
+    margin-right: 10px;
+    font-family: 'advent';
+    letter-spacing: 3px;
+    width: 160px;
+}
+
+.button-join{
+    background-color: black;
+    border-radius: 7px;
+    border-width: 2px;
+    font-size: large;
+    color: white;
+    font-family: 'advent';
+    letter-spacing: 3px;
+    width: 150px;
+}
